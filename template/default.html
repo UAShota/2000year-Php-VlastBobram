@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title><?echo $TITLE?></title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="Content-Language" content="ru" />
+  <meta name="Author" content="Feg16 by Cut Dead Cow, 2004, modified 2012" />
+  <meta name="robots" content="index,follow" />
+  <meta name="robots" content="all" />
+  <meta name="language" content="russian" />
+  <link rel="stylesheet" href="template/style.css" type="text/css" />
+</head>
+<style>
+    body, td {
+        font-family: calibri;    
+    }
+</style>
+
+<body bgcolor="#ffffff" style="margin: 0px;">
+<form method="get" action="index.php">
+
+<center><div style="width: 970px" align="center">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="117">
+  <tr>
+    <td height="51" width="100%" bgcolor="white"><img src="images/ants-network_logo.gif" width="631" height="80" /></td>
+    <td height="15" bgcolor="white" rowspan="2" width="20%"><br /><br /><br /><nobr/>
+        <input type='text' maxlength="150" size="30" name="search" value="<?echo @$search?>"/>
+        <input type="hidden" name="category" value="<?echo @$category?>"/>
+        <input type='submit' value="Искать"/>
+    </td>
+  </tr>
+  <tr>
+    <td height="36" width="80%" bgcolor="white"><img src="images/ants-network_gears.gif" width="631" height="66" /></td>
+  </tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="44px" style="background-image: url(../images/speedbar.png);"><center>Казнет жив и будет жить! Вы хотели информационную войну господа? Получайте!</center></td>
+  </tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" width="100%" id="body">
+  <tr><td valign="top" id='sidebar'>
+    <?echo $LEFT?>
+    <?echo $RIGHT?>
+  </td><td valign="top" width="*">
+    <?echo $BLOCK?>
+  </td></tr>
+</table>
+</form>
+</center>
+</div>
+
+</body>
+</html>

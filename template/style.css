@@ -1,0 +1,129 @@
+body {
+    background: #B1AEA8 url(../images/background.jpg);
+    background-attachment: fixed;
+}
+#body {
+    background: #B1AEA8;
+    padding: 6px;
+}
+#sidebar {
+    width: 287px;
+}
+#sidebar h3 {
+    height: 37px;
+    background: #DDD url(../images/Sidebar-Post-Top.png) no-repeat 0 0;
+    padding-left: 15px;
+    margin: 0 0 0 0;
+    line-height: 32px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#sidebar .body {
+    background: #2F2F2F url(../images/Sidebar-Post-Top.png) no-repeat -287px 100%;
+    color: red;
+    padding-bottom: 20px;
+}
+#sidebar ul {
+    margin: 0;
+    padding-left: 25px;
+    line-height: 120%;
+    text-align: left;
+}
+#sidebar a {
+    color: white;
+    font-family: arial;
+    font-size: 80%;
+    text-decoration: none;
+}
+#sidebar a:hover {
+    color: #B1AEA8;
+    text-decoration: underline;
+}
+#data {
+    margin-left: 6px;
+    text-align: left;
+    background-color: white;
+    width: 99%;
+}
+#data a {
+    font-size: 12px; color: #2D8FFD; font-family: verdana, arial, serif
+}
+#data a:active, a:visited {
+    color: #2D8FFD;
+}
+#data a:hover {
+    color: olive;
+}
+#data .right {
+    border-right: 1px solid gray;
+}
+#data .text {
+    padding: 5px;
+}
+#data .title {
+    background-image: url(../images/bheading.png);
+    height: 40px;
+    text-align: left;
+    color: white;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+#data .subbegin {
+    max-width: 528px;
+    white-space: nowrap;
+    background: url("../images/bsinfo00.png") no-repeat 0 0;
+}
+#data .subend {
+    max-width: 550px;
+    padding-right: 30px;
+    margin-left: 25px;
+    height: 21px;
+    color: gray;
+    font-size: 0.7em;
+    background: #2F2F2F url("../images/bsinfo00.png") no-repeat 100% -21px;
+}
+#data .more a {
+    padding-left: 14px;
+    padding-top: 5px;
+    float: left;
+    width: 141px;
+    height: 24px;
+    color: #343434;
+    font-size: 0.8em;
+    cursor: pointer;
+    background: #F3F3F3 url("../images/argmore0.png") no-repeat;
+    text-decoration: none;
+}
+#data .more a:hover {
+    color: #B42828;
+    background-position: 0 -29px;
+}
+#searchtop, #searchbottom {
+    width: 99%;
+    background: black url("../images/toolbar.png");
+    height: 35px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+input.desubmit {
+    width: 25px;
+    background-color: #EAEAEA;
+    border: 1px black dotted;
+}
+input.submit {
+    background-color: white;
+    border: 1px solid black;
+    width: 25px;
+}
+input.submit:hover {
+    background-color: #CECECE;
+    cursor: pointer;
+}
+h1 {
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
